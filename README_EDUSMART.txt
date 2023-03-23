@@ -1,0 +1,4 @@
+localhost/EDUSMART2/Edusmartt
+
+samyukthdharamarajan2002@gmail.com
+123456789
