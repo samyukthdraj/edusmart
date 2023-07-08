@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>LAcademy</title>
+    <title>EDUSMART</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
@@ -36,7 +36,7 @@
 
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-25"><a href="index.php">LAcademy</a></div>
+          <div class="site-logo mr-auto w-25"><a href="index.php">Edusmart</a></div>
 
           <div class="mx-auto text-center">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -120,7 +120,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h3>About LAcademy</h3>
+            <h3>About Edusmart</h3>
             <p>An E-Learning platform rich of resources, We make learning easy and simple for Everyone.</p>
           </div>
 
@@ -136,7 +136,7 @@
 
           <div class="col-md-4">
             <h3>Subscribe</h3>
-            <p>Keep yourself up to date and receive all kind of news about LAcademy.</p>
+            <p>Keep yourself up to date and receive all kind of news about Edusmart.</p>
             <form action="https://mailchi.mp/064deb47eeaa/lacdemy" target="_blank" class="footer-subscribe">
               <div class="d-flex mb-5">
 

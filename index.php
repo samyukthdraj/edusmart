@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>LAcademy</title>
+    <title>EDUSMART</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
@@ -36,7 +36,7 @@
 
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-25"><a href="index.php">LAcademy</a></div>
+          <div class="site-logo mr-auto w-25"><a href="index.php">EDUSMART</a></div>
 
           <div class="mx-auto text-center">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -199,7 +199,7 @@
                 <img src="images/img1.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$0</span>
+                <span class="course-price">Rs.0</span>
                 <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 3 week</div>
                 <h3><a href="#">English</a></h3>
                 <p>Learn English in order to pass IELTS exam. </p>
@@ -215,7 +215,7 @@
                 <img src="images/img2.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$0</span>
+                <span class="course-price">Rs.0</span>
                 <div class="meta"><span class="icon-clock-o"></span>20 Lessons / 4 week</div>
                 <h3><a href="#">Introduction to Chemical Engineering</a></h3>
                 <p>Discover the world of chemical engineering </p>
@@ -231,7 +231,7 @@
                 <img src="images/img4.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$0</span>
+                <span class="course-price">Rs.0</span>
                 <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
                 <h3><a href="#">Arabic</a></h3>
                 <p>Learn the basics of the arabic language . </p>
@@ -249,7 +249,7 @@
                 <img src="images/img_4.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$0</span>
+                <span class="course-price">Rs.0</span>
                 <div class="meta"><span class="icon-clock-o"></span>3 Lessons / 9 week</div>
                 <h3><a href="#">C++</a></h3>
                 <p>Learn the most famous programming language. </p>
@@ -265,7 +265,7 @@
                 <img src="images/img_5.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$0</span>
+                <span class="course-price">Rs.0</span>
                 <div class="meta"><span class="icon-clock-o"></span>2 Lessons / 5 week</div>
                 <h3><a href="#">JAVA</a></h3>
                 <p>java is a must learn versatile language. </p>
@@ -281,7 +281,7 @@
                 <img src="images/img_6.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$0</span>
+                <span class="course-price">Rs.0</span>
                 <div class="meta"><span class="icon-clock-o"></span>5 Lessons / 7 week</div>
                 <h3><a href="#">Python</a></h3>
                 <p>Begin your journey in the world of AI. </p>
@@ -395,33 +395,33 @@
 
           <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
             <div class="teacher text-center">
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <img src="images/samyukth.png" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
-                <h3 class="text-black">Aouini Oussama</h3>
+                <h3 class="text-black">Samyukth Dharmarajan</h3>
                 <p class="position">WEB Teacher</p>
-                <p>Made over 100 websites with years of experience, taught over 500 students.</p>
+                <p>Made over 100 websites with years of experience, taught more than 500 students.</p>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
             <div class="teacher text-center">
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <img src="images/eirene.png" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
-                <h3 class="text-black">Abidi Nidhal</h3>
+                <h3 class="text-black">Eirene Nikky</h3>
                 <p class="position">AI Teacher</p>
-                <p>Over 20 years of experience Worked at NASA and done so many projects .</p>
+                <p>Over 5 years of experience and done so many projects .</p>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
             <div class="teacher text-center">
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <img src="images/lloyd.png" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
-                <h3 class="text-black">Zemmali Mohamed</h3>
-                <p class="position">IOT Teacher</p>
-                <p>Leading expert in the domain of IOT, taught many students over the years.</p>
+                <h3 class="text-black">Lloyd Michael</h3>
+                <p class="position">Language Teacher</p>
+                <p>Leading expert in the domain of languages, taught many students over the years.</p>
               </div>
             </div>
           </div>
@@ -433,10 +433,10 @@
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-8 text-center testimony">
-            <img src="images/person_4.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
-            <h3 class="mb-4">Najem Märzouky</h3>
+            <img src="images/ankith.png" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
+            <h3 class="mb-4">Ankith Issac Dominic</h3>
             <blockquote>
-              <p>&ldquo; I was struggling with my studies but it all changed when I learned about LAcademy, I'm now a senior software engineer making a 6 figure salary per year.This website is a real game changer. &rdquo;</p>
+              <p>&ldquo; I was struggling with my studies but it all changed when I learned about Edusmart, I'm now a senior software engineer making a 6 figure salary per year.This website is a real game changer. &rdquo;</p>
             </blockquote>
           </div>
         </div>
@@ -537,7 +537,8 @@
                   $msgClass = 'alert-danger';
                 } else {
                   // Passed
-                  $toEmail = 'support@lacademy.com';
+                  //$toEmail = 'support@edusmart.com';
+                  $toEmail = 'samyukthdharamarajan2002@gmail.com';
                   $body = $subject.'<h4>Name</h4><p>'.$name.'</p>
                     <h4>Email</h4><p>'.$email.'</p>
                     <h4>Message</h4><p>'.$message.'</p>';
@@ -616,7 +617,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h3>About LAcademy</h3>
+            <h3>About Edusmart</h3>
             <p>An E-Learning platform rich of resources, We make learning easy and simple for Everyone.</p>
           </div>
 
@@ -632,7 +633,7 @@
 
           <div class="col-md-4">
             <h3>Subscribe</h3>
-            <p>Keep yourself up to date and receive all kind of news about LAcademy.</p>
+            <p>Keep yourself up to date and receive all kind of news about Edusmart.</p>
             <form action="https://mailchi.mp/064deb47eeaa/lacdemy" target="_blank" class="footer-subscribe">
               <div class="d-flex mb-5">
 

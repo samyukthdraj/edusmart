@@ -1,4 +1,4 @@
-This project is an E-learning platform developed by Nidhal Abidi and Oussama Aouini as a summer project .
+This project is an E-learning platform developed by Samyukth Dharmarajan, Lloyd Michael, Eirene Nikky, Ankith Issac Dominic and as a summer project .
 We used for the front end : html , css , javascript and bootstrap (a framework) .
 for the back end we used : php and databases .
 
@@ -38,11 +38,11 @@ pwdUsers LONGTEXT NOT NULL
 
 9)Everything is set up inside the database , now copy the folder named "e-learning" and go inside the installation folder of the software "wamp" then the folder "www" then paste it there .
 
-10)Now open any browser you want and write "localhost/e-learning" and click enter to use it .
+10)Now open any browser you want and write "localhost/EDUSMART2/Edusmartt" and click enter to use it .
 
 Note : 
 The steps above are only followed when you try to use the website for the first time  ( because we need to set the database ) otherwise you ignore them and do these two steps : 
 
 1)Run the software "WAMP" or "XAMPP"
 
-2)open any browser you want and write "localhost/e-learning" and click enter to use the website 
+2)open any browser you want and write "localhost/EDUSMART2/Edusmartt" and click enter to use the website 
