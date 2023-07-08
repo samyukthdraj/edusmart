@@ -113,12 +113,12 @@
                 <li class="comment">
 
                   <div class="vcard bio">
-                    <img src="../../../images/comment3.jpg" alt="Image placeholder">
+                    <img src="../../../images/samyukth.png" alt="Image placeholder">
                   </div>
 
                   <div class="comment-body">
-                    <h3>Aisha Naski</h3>
-                    <div class="meta">July 12, 2020 at 3:00pm</div>
+                    <h3>Samyukth Dharmarajan</h3>
+                    <div class="meta">June 12, 2023 at 3:00pm</div>
                     <p>Good content thank you !</p>
                   </div>
                 </li>
@@ -126,12 +126,12 @@
                 <li class="comment">
 
                   <div class="vcard bio">
-                    <img src="../../../images/comment1.jpg" alt="Image placeholder">
+                    <img src="../../../images/eirene.png" alt="Image placeholder">
                   </div>
 
                   <div class="comment-body">
-                    <h3>Abbass Nouri</h3>
-                    <div class="meta">August 19, 2020 at 5:40am</div>
+                    <h3>Eirene Nikky</h3>
+                    <div class="meta">June 19, 2023 at 5:40am</div>
                     <p>It feels good to refresh my memory !</p>
                   </div>
 
@@ -162,11 +162,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h3>About LAcademy</h3>
+            <h3>About EDUSMART</h3>
             <p>An E-Learning platform rich of resources, We make learning easy and simple for Everyone.</p>
           </div>
 
-          <div class="col-md-4">
+          <!-- <div class="col-md-4"> 
             <h3>Subscribe</h3>
             <p>Keep yourself up to date and receive all kind of news about LAcademy.</p>
             <form action="https://mailchi.mp/064deb47eeaa/lacdemy" target="_blank" class="footer-subscribe">
@@ -175,7 +175,7 @@
                 <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
               </div>
             </form>
-          </div>
+          </div>-->
 
         </div>
 
@@ -184,7 +184,8 @@
             <div class="border-top pt-5">
             <p>
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+         <!-- This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a> -->
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
       </p>
             </div>

@@ -18,7 +18,9 @@
         <?php
         if (isset($_SESSION['userId'])){
           echo '<a href="loggedin/profile.php" name="profile">Profile</a>
-                <a href="includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
+                <a href="loggedin/quiz.php" name="quiz">Quiz</a>
+                <a href="loggedin/notes.php" name="notes">Notes</a>
+                <a href="includes/logout.inc.php" name="logout-submit">Sign Out</a>';
         }else{
           echo '<a href="#aboutus">ABOUT US</a>
           <a href="#contact">CONTACT</a>
@@ -26,7 +28,7 @@
             <i class="fa fa-bars"></i>
           </a>
           <a href="signup.php">SIGN UP</a>';
-          echo '<a href="signin.php">SIGN IN</a>';
+          echo '<a href="signin.php">Sign In</a>';
         }
          ?>
 

@@ -18,7 +18,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
        <?php
        if (isset($_SESSION['userId'])){
          echo '<a href="profile.php" name="profile">Profile</a>
-               <a href="../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
+         <a href="quiz.php" name="quiz">Quiz</a>
+         <a href="notes.php" name="notes" class="">Notes</a>
+               <a href="../includes/logout.inc.php" name="logout-submit">Sign Out</a>';
        }
         ?>
       </div>
@@ -34,7 +36,7 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
 
 <div class="java-container">
 
-  <div class="card" >
+  <!-- <div class="card" > 
       <img src="img4.png" class="card-img-top" alt="..." >
       <div class="card-body">
         <p class="card-text" >C++ - Cours</p>
@@ -46,6 +48,7 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
       <a href="computer_science/c++/description_formationvideo.php" class="btn btn-primary" target="_blank">View Description !</a><br>
       <a href="computer_science/c++/computer_science_c++_formationvideo.php" class="btn btn-primary">View Course !</a>
   </div>
+  -->
 
   <div class="card" >
       <img src="img5.png" class="card-img-top" alt="..." >
@@ -115,7 +118,7 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
       <a href="language/french/description_vincent.php" class="btn btn-primary" target="_blank">View Description !</a><br>
       <a href="language/french/language_french_vincent.php" class="btn btn-primary">View Course !</a>
   </div>
-  <div class="card" >
+  <!-- <div class="card" > 
       <img src="img1.png" class="card-img-top" alt="..." >
       <div class="card-body">
         <p class="card-text" >Apprendre la programmation avec JAVA</p>
@@ -127,7 +130,7 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
       <a href="computer_science/java/description_dominique.php" class="btn btn-primary" target="_blank">View Description !</a><br>
       <a href="computer_science/java/computer_science_java_dominique.php" class="btn btn-primary">View Course !</a>
   </div>
-
+       -->
   <div class="card" >
       <img src="img2.png" class="card-img-top" alt="..." >
       <div class="card-body">
@@ -246,7 +249,7 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
       <a href="computer_science/python/computer_science_python_telusko.php" class="btn btn-primary">View Course !</a>
   </div>
 
-  <div class="card" >
+  <!-- <div class="card" > 
       <img src="img8.png" class="card-img-top" alt="..." >
       <div class="card-body">
         <p class="card-text" >Python Tutorials Arabic|| دورة برمجة بايثون</p>
@@ -257,4 +260,5 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
       <a href="computer_science/python/description_thenewbaghdad.php" class="btn btn-primary" target="_blank">View Description !</a><br>
       <a href="computer_science/python/computer_science_python_thenewbaghdad.php" class="btn btn-primary">View Course !</a>
   </div>
+-->
 </div>

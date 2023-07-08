@@ -46,3 +46,80 @@ The steps above are only followed when you try to use the website for the first 
 1)Run the software "WAMP" or "XAMPP"
 
 2)open any browser you want and write "localhost/EDUSMART2/Edusmartt" and click enter to use the website 
+
+
+11) NOW WE'RE CREATING A QUIZ USING DATABASE FOR THIS WE CREATE A DATABASE WITH NAME AS "quiz(subject_name)" then 3 tables for each subject namely 
+"questions" with qid(int 250)primary,question(varchar 250),ans_id(int 250),
+"answers" with aid(int 250)primary, answer(varchar 250),ans_id(int 250), 
+"user" with uid(int 250)primary, username(varchar 250), total(int 250),answers(int 250).
+
+						OR THIS
+
+- create table questions(qid int(250) auto_increment not null primary key, question varchar(250),ans_id int(250));
+- create table answers(aid int(250) auto_increment not null primary key, answer varchar(250),ans_id int(250));
+- create table user(uid int(250) primary key auto_increment not null, username varchar(250), total int(250), answers int(250));
+
+
+12)Now in questions, we gotta input questions: insert into questions values(1,"What is java?",1);
+						insert into questions values(2,"What is java used for?",5);
+
+13)Now in answers, we gotta input answers : insert into answers values(1,"Java is this",1);
+						insert into answers values(2,"Java is that",1);
+						insert into answers values(3,"Java was this",1);	
+						insert into answers values(4,"Java is not this",1)
+	
+					here the answer is "java is this" ie: ans_id 1	
+
+14)
+
+insert into questions values(1,"",4);
+insert into questions values(2,"",7);
+insert into questions values(3,"",10);
+insert into questions values(4,"",16);
+insert into questions values(5,"",19);
+
+
+insert into answers values(1,"",1);
+insert into answers values(2,"",1);
+insert into answers values(3,"",1);
+insert into answers values(4,"",1);
+insert into answers values(5," ",2);
+insert into answers values(6,"",2);
+insert into answers values(7,"",2);
+insert into answers values(8,"",2);
+insert into answers values(9,"",3);
+insert into answers values(10,"",3);
+insert into answers values(11,"",3);
+insert into answers values(12,"",3);
+insert into answers values(13,"",4);
+insert into answers values(14,"",4);
+insert into answers values(15,"",4);
+insert into answers values(16,"",4);
+insert into answers values(17,"",5);
+insert into answers values(18,"",5);
+insert into answers values(19,"",5);
+insert into answers values(20,"",5);
+
+
+
+15)
+insert into answers values(1,"Guido van Rossum",1);
+insert into answers values(2,"James Gosling",1);
+insert into answers values(3,"Dennis Ritchie",1);
+insert into answers values(4,"Bjarne Stroustrup",1);
+insert into answers values(5," Java is a sequence-dependent programming language",2);
+insert into answers values(6,"Java is a code dependent programming language",2);
+insert into answers values(7,"Java is a platform-dependent programming language",2);
+insert into answers values(8," Java is a platform-independent programming language",2);
+insert into answers values(9,"JRE",3);
+insert into answers values(10,"JIT",3);
+insert into answers values(11,"JDK",3);
+insert into answers values(12,"JVM",3);
+insert into answers values(13,"Object-oriented",4);
+insert into answers values(14,"Use of pointers",4);
+insert into answers values(15,"Portable",4);
+insert into answers values(16,"Dynamic and Extensible",4);
+insert into answers values(17,"identifier & keyword",5);
+insert into answers values(18,"identifier",5);
+insert into answers values(19,"keyword",5);
+insert into answers values(20,"none of the mentioned",5);

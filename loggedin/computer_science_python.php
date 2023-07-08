@@ -18,7 +18,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
        <?php
        if (isset($_SESSION['userId'])){
          echo '<a href="profile.php" name="profile">Profile</a>
-               <a href="../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
+         <a href="quiz.php" name="quiz">Quiz</a>
+         <a href="notes.php" name="notes" class="">Notes</a>
+               <a href="../includes/logout.inc.php" name="logout-submit">Sign Out</a>';
        }
         ?>
       </div>

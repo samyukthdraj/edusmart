@@ -92,11 +92,11 @@
                 <li class="comment">
 
                   <div class="vcard bio">
-                    <img src="../../../images/comment3.jpg" alt="Image placeholder">
+                    <img src="../../../images/ankith.png" alt="Image placeholder">
                   </div>
 
                   <div class="comment-body">
-                    <h3>Andrew Tate</h3>
+                    <h3>Ankith Issac Dominic</h3>
                     <div class="meta">August 2, 2022 at 7:00pm</div>
                     <p>Thank you !</p>
                   </div>
@@ -105,11 +105,11 @@
                 <li class="comment">
 
                   <div class="vcard bio">
-                    <img src="../../../images/comment1.jpg" alt="Image placeholder">
+                    <img src="../../../images/eirene.png" alt="Image placeholder">
                   </div>
 
                   <div class="comment-body">
-                    <h3>Greta Thunberg</h3>
+                    <h3>Eirene Nikky</h3>
                     <div class="meta">August 19, 2022 at 5:40am</div>
                     <p>Good content , but I need more details!</p>
                   </div>
@@ -125,9 +125,9 @@
             <div class="mb-5 text-center border rounded course-instructor">
               <h3 class="mb-5 text-black text-uppercase h6 border-bottom pb-3">Course Instructor</h3>
               <div class="mb-4 text-center">
-                <img src="../../../images/jasonchampagne.jpg" alt="Image" class="w-25 rounded-circle mb-4">
-                <h3 class="h5 text-black mb-4">Jason Champagne</h3>
-                <p> SITE PERSONNEL : https://jasonchampagne.fr
+                <img src="../../../images/lloyd.png" alt="Image" class="w-25 rounded-circle mb-4">
+                <h3 class="h5 text-black mb-4">Lloyd Michael</h3>
+                <p> SITE PERSONNEL : https://lloydmichael.com 
                     FormationVidéo est la chaîne YouTube de celles et ceux qui sont curieux, aiment apprendre
                     et veulent réaliser leurs rêves d'enfants.
                     À travers plusieurs vidéos, j'essaie de vous donner mon savoir et de partager mes
@@ -155,18 +155,16 @@
             <h3>About EDUSMART</h3>
             <p>An E-Learning platform rich of resources, We make learning easy and simple for Everyone.</p>
           </div>
-
-          <div class="col-md-4">
+          <!-- <div class="col-md-4"> 
             <h3>Subscribe</h3>
             <p>Keep yourself up to date and receive all kind of news about EDUSMART.</p>
             <form action="https://mailchi.mp/064deb47eeaa/lacdemy" target="_blank" class="footer-subscribe">
               <div class="d-flex mb-5">
-
                 <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
               </div>
             </form>
           </div>
-
+          -->
         </div>
 
         <div class="row pt-5 mt-5 text-center">

@@ -309,8 +309,9 @@ a, a:hover {
 /*the loggedin page css */
 .card-container{
 	display: flex;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
 	justify-content: center;
+ 
 }
 .card{
 	margin: 15px;
@@ -363,7 +364,7 @@ a, a:hover {
 	height: 12rem;
 }
 .card-text{
-	font-family: "Comic Sans MS";
+	font-family: "Arial, Helvetica, sans-serif";
 }
 .details{
 	color: #636c72;

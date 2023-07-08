@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>LAcademy </title>
+    <title>EDUSMART </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- links for the navbar that i've made  -->
@@ -92,12 +92,12 @@
                 <li class="comment">
 
                   <div class="vcard bio">
-                    <img src="../../../images/comment3.jpg" alt="Image placeholder">
+                    <img src="../../../images/lloyd.png" alt="Image placeholder">
                   </div>
 
                   <div class="comment-body">
-                    <h3>Mariem Frikhi</h3>
-                    <div class="meta">August 2, 2020 at 7:00pm</div>
+                    <h3>Lloyd Michael</h3>
+                    <div class="meta">June 2, 2023 at 7:00pm</div>
                     <p>Thank you , I'm jsut starting out to learn Arabic!</p>
                   </div>
                 </li>
@@ -105,12 +105,12 @@
                 <li class="comment">
 
                   <div class="vcard bio">
-                    <img src="../../../images/comment1.jpg" alt="Image placeholder">
+                    <img src="../../../images/eirene.png" alt="Image placeholder">
                   </div>
 
                   <div class="comment-body">
-                    <h3>Khalil Riahi</h3>
-                    <div class="meta">January 17, 2020 at 5:40am</div>
+                    <h3>Eirene Nikky</h3>
+                    <div class="meta">June 17, 2023 at 5:40am</div>
                     <p>Good content with a lot of details!</p>
                   </div>
 
@@ -125,9 +125,9 @@
             <div class="mb-5 text-center border rounded course-instructor">
               <h3 class="mb-5 text-black text-uppercase h6 border-bottom pb-3">Course Instructor</h3>
               <div class="mb-4 text-center">
-                <img src="../../../images/profileDefault.jpg" alt="Image" class="w-25 rounded-circle mb-4">
-                <h3 class="h5 text-black mb-4">Arabic Khatawaat</h3>
-                <p>Arabic Khatawaat (Steps) is a series of recorded material to support Non-Arabic Native
+                <img src="../../../images/samyukth.png" alt="Image" class="w-25 rounded-circle mb-4">
+                <h3 class="h5 text-black mb-4">Samyukth Dharmarajan</h3>
+                <p>Samyukth Dharmarajan (Steps) is a series of recorded material to support Non-Arabic Native
                   Speakers learn to read and write. Recognize Arabic sounds, connect Arabic letters,
                   form Basic Short Arabic Sentences, and to read Arabic words and phrases.</p>
               </div>
@@ -142,11 +142,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h3>About LAcademy</h3>
+            <h3>About EDUSMART</h3>
             <p>An E-Learning platform rich of resources, We make learning easy and simple for Everyone.</p>
           </div>
 
-          <div class="col-md-4">
+          <!-- <div class="col-md-4"> 
             <h3>Subscribe</h3>
             <p>Keep yourself up to date and receive all kind of news about LAcademy.</p>
             <form action="https://mailchi.mp/064deb47eeaa/lacdemy" target="_blank" class="footer-subscribe">
@@ -156,7 +156,7 @@
               </div>
             </form>
           </div>
-
+-->
         </div>
 
         <div class="row pt-5 mt-5 text-center">
@@ -164,7 +164,8 @@
             <div class="border-top pt-5">
             <p>
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+        <!-- | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a> -->
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
       </p>
             </div>

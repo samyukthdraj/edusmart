@@ -16,11 +16,13 @@
  </head>
   <body>
     <div class="topnav" id="myTopnav">
-    <a href="../loggedin.php" class="active">Home</a>
+    <a href="../loggedin.php" class="">Home</a>
         <?php
         if (isset($_SESSION['userId'])){
-          echo '<a href="../loggedin/profile.php" name="profile">Profile</a>
-                <a href="../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
+          echo '<a href="../loggedin/profile.php" name="profile" class="active">Profile</a>
+          <a href="quiz.php" name="quiz">Quiz</a>
+          <a href="notes.php" name="notes" class="">Notes</a>
+                <a href="../includes/logout.inc.php" name="logout-submit">Sign Out</a>';
         }
          ?>
        </div>

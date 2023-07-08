@@ -10,6 +10,21 @@
 integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <link rel="stylesheet" href="../styleloggedin.css">
 <title>EDUSMART</title>
+<style>
+  .javanotes{
+    background-color: transparent;
+    color: moccasin;
+    margin-top: -2.7px;
+    margin-left: 15px;
+    border-color: transparent;
+    padding:2px;
+  }
+  .javanotes:hover
+  {
+    color: moccasin;
+  }
+
+</style>
 </head>
 
  <body>
@@ -18,7 +33,10 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
        <?php
        if (isset($_SESSION['userId'])){
          echo '<a href="../profile.php" name="profile">Profile</a>
-               <a href="../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
+               <a href="quiz.php" name="quiz">Quiz</a>
+               <a href="notes.php" name="notes" class="">Notes</a>
+               <a href="../includes/logout.inc.php" name="logout-submit">Sign Out</a>';
+               
        }
         ?>
       </div>
@@ -29,13 +47,16 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
     <li class="breadcrumb-item" ><a href="../loggedin.php" style="color:white;">Home</a></li>
     <li class="breadcrumb-item active" aria-current="page"><a href="computer_science.php" style="color:white;font-size:bold;">Computer Science</a></li>
     <li class="breadcrumb-item active" aria-current="page" style="color:white;">Java</li>
+<!-- <div class="javanotes">     <a href="notesjava.php" style="color:moccasin"> Notes </a>
+    </div>
+ -->
 
   </ol>
 </nav>
 
 <div class="java-container">
 
-  <div class="card" >
+<!--   <div class="card" > 
       <img src="img1.png" class="card-img-top" alt="..." >
       <div class="card-body">
         <p class="card-text" >Apprendre la programmation avec JAVA</p>
@@ -47,7 +68,7 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
       <a href="computer_science/java/description_dominique.php" class="btn btn-primary" target="_blank">View Description !</a><br>
       <a href="computer_science/java/computer_science_java_dominique.php" class="btn btn-primary">View Course !</a>
   </div>
-
+-->
   <div class="card" >
       <img src="img2.png" class="card-img-top" alt="..." >
       <div class="card-body">

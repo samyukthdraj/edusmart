@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>LAcademy </title>
+    <title>EDUSMART</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- links for the navbar that i've made  -->
@@ -92,12 +92,12 @@
                 <li class="comment">
 
                   <div class="vcard bio">
-                    <img src="../../../images/comment3.jpg" alt="Image placeholder">
+                    <img src="../../../images/eirene.png" alt="Image placeholder">
                   </div>
 
                   <div class="comment-body">
-                    <h3>Imen Rezgui</h3>
-                    <div class="meta">June 11, 2020 at 2:21pm</div>
+                    <h3>Eirene Nikky</h3>
+                    <div class="meta">June 11, 2023 at 2:21pm</div>
                     <p>Good Practice thank you !</p>
                   </div>
                 </li>
@@ -105,12 +105,12 @@
                 <li class="comment">
 
                   <div class="vcard bio">
-                    <img src="../../../images/comment1.jpg" alt="Image placeholder">
+                    <img src="../../../images/lloyd.png" alt="Image placeholder">
                   </div>
 
                   <div class="comment-body">
-                    <h3>Bilel Ben Mabrouk</h3>
-                    <div class="meta">July 23, 2020 at 9:21am</div>
+                    <h3>Lloyd Michael</h3>
+                    <div class="meta">June 23, 2023 at 9:21am</div>
                     <p>It feels good to put my knowledge into practice !</p>
                   </div>
 
@@ -125,8 +125,8 @@
             <div class="mb-5 text-center border rounded course-instructor">
               <h3 class="mb-5 text-black text-uppercase h6 border-bottom pb-3">Course Instructor</h3>
               <div class="mb-4 text-center">
-                <img src="../../../images/alexlee.jpg" alt="Image" class="w-25 rounded-circle mb-4">
-                <h3 class="h5 text-black mb-4">Dominique Liard</h3>
+                <img src="../../../images/ankith.png" alt="Image" class="w-25 rounded-circle mb-4">
+                <h3 class="h5 text-black mb-4">Ankith Issac Dominic</h3>
                 <p>I make easy Java tutorials.</p>
               </div>
             </div>
@@ -140,11 +140,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h3>About LAcademy</h3>
+            <h3>About EDUSMART</h3>
             <p>An E-Learning platform rich of resources, We make learning easy and simple for Everyone.</p>
-          </div>
+          <!--</div>
 
-          <div class="col-md-4">
+           <div class="col-md-4"> 
             <h3>Subscribe</h3>
             <p>Keep yourself up to date and receive all kind of news about LAcademy.</p>
             <form action="https://mailchi.mp/064deb47eeaa/lacdemy" target="_blank" class="footer-subscribe">
@@ -156,13 +156,14 @@
           </div>
 
         </div>
-
+-->
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
             <p>
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+        <!-- | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a> -->
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
       </p>
             </div>

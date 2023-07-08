@@ -44,7 +44,7 @@
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#courses-section" class="nav-link">Courses</a></li>
                 <li><a href="#programs-section" class="nav-link">Programs</a></li>
-                <li><a href="#teachers-section" class="nav-link">Teachers</a></li>
+                <li><a href="#teachers-section" class="nav-link">Team</a></li>
               </ul>
             </nav>
           </div>
@@ -386,7 +386,7 @@
 
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
-            <h2 class="section-title">Our Teachers</h2>
+            <h2 class="section-title">Our Team</h2>
             <p class="mb-5">The best we promise the best we are !</p>
           </div>
         </div>
@@ -398,8 +398,8 @@
               <img src="images/samyukth.png" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
                 <h3 class="text-black">Samyukth Dharmarajan</h3>
-                <p class="position">WEB Teacher</p>
-                <p>Made over 100 websites with years of experience, taught more than 500 students.</p>
+                <p class="position">Computer Expert</p>
+                <p>Mastered many computer science languages.</p>
               </div>
             </div>
           </div>
@@ -409,8 +409,8 @@
               <img src="images/eirene.png" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
                 <h3 class="text-black">Eirene Nikky</h3>
-                <p class="position">AI Teacher</p>
-                <p>Over 5 years of experience and done so many projects .</p>
+                <p class="position">Chemical Engineering Expert</p>
+                <p>Studied Chemical Engineering and mastered the course.</p>
               </div>
             </div>
           </div>
@@ -420,7 +420,7 @@
               <img src="images/lloyd.png" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
                 <h3 class="text-black">Lloyd Michael</h3>
-                <p class="position">Language Teacher</p>
+                <p class="position">Language Expert</p>
                 <p>Leading expert in the domain of languages, taught many students over the years.</p>
               </div>
             </div>
@@ -436,7 +436,7 @@
             <img src="images/ankith.png" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
             <h3 class="mb-4">Ankith Issac Dominic</h3>
             <blockquote>
-              <p>&ldquo; I was struggling with my studies but it all changed when I learned about Edusmart, I'm now a senior software engineer making a 6 figure salary per year.This website is a real game changer. &rdquo;</p>
+              <p>&ldquo; I was struggling with my studies but it all changed when I learned about Edusmart, I'm now an expert in a few languages. &rdquo;</p>
             </blockquote>
           </div>
         </div>
@@ -491,7 +491,7 @@
 
               <div class="d-flex align-items-center custom-icon-wrap custom-icon-light">
                 <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-university"></span></span></div>
-                <div><h3 class="m-0">Best Teachers</h3></div>
+                <div><h3 class="m-0">Best Team</h3></div>
               </div>
 
             </div>
@@ -512,105 +512,21 @@
           <div class="col-md-7">
 
             <h2 class="section-title mb-3">Message Us</h2>
-            <p class="mb-5">We are more than happy to receive your suggestions.</p>
+            <p class="mb-3">We are more than happy to receive your suggestions.</p><br><br>
+                  <div class="row justify-content-center">
+                  <p class="mb-3"> Email: <a href="edusmart500@gmail.com">edusmart500@gmail.com</a></p>
+                  </div>
+                  <div class="row justify-content-center ml-auto">
+                  <p class="mb-3"> Phone: <a href="">+9189784638900</a></p>
+                  </div>
             <!-- Beginning of the php for the contact form -->
-            <?php
-            // Message Vars
-            $msg = '';
-            $msgClass = '';
-
-            // Check For Submit
-            if(filter_has_var(INPUT_POST, 'submit')){
-              // Get Form Data
-              $name = htmlspecialchars($_POST['name']);
-              $email = htmlspecialchars($_POST['email']);
-              $message = htmlspecialchars($_POST['message']);
-              $subject = htmlspecialchars($_POST['subject']);
-
-              // Check Required Fields
-              if(!empty($email) && !empty($name) && !empty($message) && !empty($subject)){
-                // Passed
-                // Check Email
-                if(filter_var($email, FILTER_VALIDATE_EMAIL) === false){
-                  // Failed
-                  $msg = 'Please use a valid email';
-                  $msgClass = 'alert-danger';
-                } else {
-                  // Passed
-                  //$toEmail = 'support@edusmart.com';
-                  $toEmail = 'samyukthdharamarajan2002@gmail.com';
-                  $body = $subject.'<h4>Name</h4><p>'.$name.'</p>
-                    <h4>Email</h4><p>'.$email.'</p>
-                    <h4>Message</h4><p>'.$message.'</p>';
-
-                  // Email Headers
-                  $headers = "MIME-Version: 1.0" ."\r\n";
-                  $headers .="Content-Type:text/html;charset=UTF-8" . "\r\n";
-
-                  // Additional Headers
-                  $headers .= "From: " .$name. "<".$email.">". "\r\n";
-
-                  if(mail($toEmail, $subject, $body, $headers)){
-                    // Email Sent
-                    $msg = 'Your email has been sent';
-                    $msgClass = 'alert-success';
-                  } else {
-                    // Failed
-                    $msg = 'Your email was not sent';
-                    $msgClass = 'alert-danger';
-                  }
-                }
-              } else {
-                // Failed
-                $msg = 'Please fill in all fields';
-                $msgClass = 'alert-danger';
-              }
-            }
-             ?>
-             <?php if($msg != ''): ?>
-                 <div class="alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>
-               <?php endif; ?>
-            <!-- End of the php for the contact form -->
-            <form method="post" action="index.php#contact-section" data-aos="fade" id="contact_form">
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <div id="error_contact_fullname"></div>
-                  <input type="text" name="name" id="contact_fullname" class="form-control" placeholder="Full name" value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <div id="error_contact_subject"></div>
-                  <input type="text" id="contact_subject" name="subject" class="form-control" placeholder="Subject" >
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <div id="error_contact_email"></div>
-                  <input type="email" id="contact_email" name="email"  class="form-control" placeholder="Email" value="<?php echo isset($_POST['email']) ? $email : ''; ?>">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <div id="error_contact_message"></div>
-                  <textarea class="form-control" id="contact_message" name="message" cols="30" rows="10" placeholder="Write your message here."><?php echo isset($_POST['message']) ? $message : ''; ?></textarea>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-6">
-                  <input type="submit" name="submit" class="btn btn-primary py-3 px-5 btn-block btn-pill" value="Send Message">
-                </div>
-              </div>
-
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+            <!-- <div class="site-section bg-light" id="message us"> 
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-7">
+                    <p> edusmart500@gmail.com 
+            </div>
+            -->
 
 
     <footer class="footer-section bg-white">
@@ -622,17 +538,16 @@
           </div>
 
           <div class="col-md-3 ml-auto">
-            <h3>Links</h3>
+            <h3 style="margin-left:15px;"> Links</h3>
             <ul class="list-unstyled footer-links">
               <li><a href="#home-section" class="nav-link">Home</a></li>
               <li><a href="#courses-section" class="nav-link">Courses</a></li>
               <li><a href="#programs-section" class="nav-link">Programs</a></li>
-              <li><a href="#teachers-section" class="nav-link">Teachers</a></li>
+              <li><a href="#teachers-section" class="nav-link">Team</a></li>
             </ul>
           </div>
 
-          <div class="col-md-4">
-            <h3>Subscribe</h3>
+<!-- <div class="col-md-4">             <h3>Subscribe</h3>
             <p>Keep yourself up to date and receive all kind of news about Edusmart.</p>
             <form action="https://mailchi.mp/064deb47eeaa/lacdemy" target="_blank" class="footer-subscribe">
               <div class="d-flex mb-5">
@@ -643,15 +558,16 @@
           </div>
 
         </div>
+-->
 
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
-            <p>
+            
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      </p>
+      
             </div>
           </div>
 
